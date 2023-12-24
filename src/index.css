@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  font-family: cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: none;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-family: cursive;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(0.95);
+}
+
+main div p:first-child {
+  text-align: justify;
+}
+.hidden {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 300px;
+  border-radius: 5px;
+}
